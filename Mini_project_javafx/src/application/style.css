@@ -1,0 +1,59 @@
+.root {
+    -fx-background-color: #f0f0f0; /* Définir une couleur de fond */
+}
+
+
+    
+    .input-box {
+    -fx-padding: 20px;
+    -fx-pref-width: 50px;
+    }
+    
+    .button {
+    -fx-background-color: #a873ee;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+    -fx-pref-width: 90px;
+    }
+    
+    .table-view {
+    -fx-pref-width: 400px;
+    -fx-pref-height: 400px;
+    -fx-border-color: #a873ee;
+    }
+    
+    .table-view .column-header-background {
+    -fx-background-color: #a873ee;
+    -fx-text-fill: #ffffff;
+    }
+    
+    .table-view .table-row-cell {
+    -fx-background-color:#ffffff;
+    }
+    
+    .table-view .table-row-cell:odd {
+    -fx-background-color:#f2f2f2;
+    }
+    
+    .table-view .table-row-cell:selected {
+    -fx-background-color: #a873ee;
+    -fx-text-fill: #ffffff;
+    }
+    
+    .alert {
+    -fx-background-color: #ffffff;
+    }
+    
+    .alert .dialog-pane {
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1px;
+    }
+    
+    .alert .dialog-pane .content-label {
+    -fx-text-fill: #333333;
+    }
+    
+    .alert .dialog-pane .button-bar .button {
+    -fx-background-color: #a873ee;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px; }
